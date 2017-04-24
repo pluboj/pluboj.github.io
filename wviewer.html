@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Viewer</title>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/wviewer.css"> 
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+		 <div class="col-lg-3"></div>
+		 <div class="col-lg-6">
+			<div class="page-header text-center">
+			  <h1>Wikipedia Viewer</h1>
+			</div> <!-- page-header -->
+			<div class="input-group">
+			  <input type="text" id="search_text" class="form-control" placeholder="Search for...">
+			<span class="input-group-btn">
+			  <button class="btn btn-default" type="button" id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</span>
+			</div> <!-- input-group -->
+		 </div>
+		</div> <!-- row -->
+		<div class="row main">
+		 <div id="output" class="col-lg-12">
+
+		 </div> <!-- output -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+	<script src="js/wviewer.js"></script>
+</body>
+</html>

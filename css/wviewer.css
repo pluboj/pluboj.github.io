@@ -1,0 +1,19 @@
+body {
+  background-color: #154360;
+}
+
+h1 {
+  color: #D5D8DC;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.main {
+  margin-top: 100px;
+}
